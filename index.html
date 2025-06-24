@@ -2,124 +2,207 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-CFrPtiMb.css">
+    <link rel="icon" type="image/svg+xml" href="/blitz-date/favicon.png" />
+    <title>BlitzDate — Daily Game Discussion Challenges</title>
+    <meta name="title" content="BlitzDate — Daily Game Discussion Challenges">
+    <meta name="description"
+      content="BlitzDate is a daily challenge for gamers to share hot takes and insights on one game topic per day. Join timed discussions, earn badges, and climb the leaderboard.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="BlitzDate Team">
+    <meta name="keywords"
+      content="game discussion, daily topics, gaming opinions, game debates, video game blog, game mechanics, gamer community, blitz topics">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script type="module" crossorigin src="/blitz-date/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/blitz-date/assets/vendor-C8mLK4Kr.js">
+    <link rel="stylesheet" crossorigin href="/blitz-date/assets/vendor-DHBATib1.css">
+    <link rel="stylesheet" crossorigin href="/blitz-date/assets/index-xADGyn1J.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/test/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+   
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/test/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
+      <!-- home -->
+<section class="home-section">
+    <div class="container">
+        <h1 class="visually-hidden">The Daily Challenge for Game Thinkers & Keyboard Warriors</h1>
+        <picture>
+            <source srcset="/blitz-date/assets/logo-desk-BsmWVFRB.png 1x, /blitz-date/assets/logo-desk@2x-G3Y0WPqN.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/blitz-date/assets/logo-mob-Boy-yrMq.png 1x, /blitz-date/assets/logo-mob@2x-DacTqMEr.png 2x" media="(max-width: 1438px)" />
+            <img class="home-img" src="/blitz-date/assets/logo-mob-Boy-yrMq.png" alt="The Daily Challenge for Game Thinkers & Keyboard Warriors" loading="lazy" />
+        </picture>
+        <p class="home-text">Every day, BlitzDate drops a fresh, bold topic about gaming—mechanics, characters, hot takes, or timeless debates.<br/>
+        You have 24 hours to speak your mind, react to others, and earn your place at the top of the feed.
+            </p>
+            <a class="home-link" href="#Topics">
+                <p class="home-link-text">Enter Today’s Blitz</p>
+                <div class="home-box">
+                    <svg class="home-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.808359 15.0159L14.5161 1.30811M14.5161 1.30811L4.5676 1.64041M14.5161 1.30811L14.1838 11.2566"
+                         stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </a>
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
 </section>
+<!-- How BlitzDate Works -->
+<section class="how-section">
+    <div class="container">
+        <h2 class="how-title">How  <span class="span">BlitzDate </span>Works</h2>
+        <div class="swiper how-swiper">
+            <div class="swiper-wrapper how-swiper-wrapper">
+                <div class="swiper-slide how-swiper-slide">
+                    <div class="how-wrapper">
+                        <div class="number-wrapper"><p>1</p></div>
+                        <div class="slide-text-wrapper">
+                            <p class="how-slide-title">New Topic Daily</p>
+                            <p class="how-slide-text">At midnight UTC, a new game-related topic is posted to the homepage.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="how-wrapper how-wrapper-second">
+                        <div class="number-wrapper"><p>2</p></div>
+                        <div class="slide-text-wrapper">
+                            <p class="how-slide-title">Add Your Take</p>
+                            <p class="how-slide-text">Type a quick response, whether it’s a deep dive, joke, or bold opinion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide how-swiper-slide">
+                    <div class="how-wrapper">
+                        <div class="number-wrapper"><p>3</p></div>
+                        <div class="slide-text-wrapper">
+                            <p class="how-slide-title">React & Vote</p>
+                            <p class="how-slide-text">Read others' takes. Upvote what resonates. The best rise to the top.</p>
+                        </div>
+                    </div>
+                    <div class="how-wrapper how-wrapper-second">
+                        <div class="number-wrapper"><p>4</p></div>
+                        <div class="slide-text-wrapper">
+                            <p class="how-slide-title">Earn Rewards</p>
+                            <p class="how-slide-text">Get badges, keep your streak alive, and climb the contributor leaderboard.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
-</article>
+        <div class="how-custom-pagination">
+            <div class="how-pagination-item active"></div>
+            <div class="how-pagination-item"></div>
+        </div>
+        <p class="how-text">*A game-like social experience for players who love to talk games.</p>
+    </div>
+</section>
+<!-- What Kinds of Topics? -->
+<section class="topics-section" id="Topics">
+    <div class="container">
+        <h2 class="topics-title">What <span class="span">Kinds</span>  of Topics?</h2>
+        <div class="topics-wrapper">
+        <div class="topics-text-wrapper-one">
+            <p class="topics-text-one">Example Blitz Topics We've Posted:</p>
+            <ul class="topics-list">
+                <li class="topics-item">Which 90s game deserves a proper remake?</li>
+                <li class="topics-item">Best boss fight in the Souls series?</li>
+                <li class="topics-item">What’s one mechanic more games should steal?</li>
+                <li class="topics-item">Was Aerith’s death good writing or cheap drama?
+                </li>
+                <li class="topics-item">Are horror games better with or without combat?
+                </li>
+            </ul>
+        </div>
+        <div class="topics-text-wrapper-two">
+            <p class="topics-text-two">We feature:</p>
+            <ul class="topics-list">
+                <li class="topics-item">Player-submitted ideas</li>
+                <li class="topics-item">Trending gaming news & events</li>
+                <li class="topics-item">Developer spotlights</li>
+                <li class="topics-item">Nostalgia and controversy alike
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- Profile & Reputation System -->
+<section class="profile-section">
+    <div class="container">
+        <h2 class="profile-title">Profile & Reputation<span class="span"> System</span></h2>
+        <p class="profile-text">Your Gaming Brain =<span class="span"> Your Identity</span></p>
+        <div class="swiper profile-swiper">
+            <div class="swiper-wrapper profile-swiper-wrapper">
+                <div class="swiper-slide profile-swiper-slide">
+                    <div class="profile-wrapper">
+                        <div class="profile-wrapper-img">
+                            <img class="profile-img" src="data:image/png;base64,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" alt="Insightful Thinker">
+                            <p class="profile-img-title">Insightful Thinker</p>
+                        </div>
+                        <p class="profile-slide-text">Get badge for thoughtful analysis</p>
+                    </div>
+                    <div class="profile-wrapper profile-wrapper-two">
+                        <div class="profile-wrapper-img">
+                            <img class="profile-img" src="data:image/png;base64,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" alt="Hot Take Machine">
+                            <p class="profile-img-title">Hot Take Machine</p>
+                        </div>
+                        <p class="profile-slide-text">Post spicy takes that spark debate</p>
+                    </div>
+                </div>
+                <div class="swiper-slide profile-swiper-slide">
+                    <div class="profile-wrapper">
+                        <div class="profile-wrapper-img">
+                            <img class="profile-img" src="data:image/png;base64,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" alt="Top Weekly Commenter">
+                            <p class="profile-img-title">Top Weekly Commenter</p>
+                        </div>
+                        <p class="profile-slide-text">Ranked weekly across the board</p>
+                    </div>
+                    <div class="profile-wrapper profile-wrapper-two">
+                        <div class="profile-wrapper-img">
+                            <img class="profile-img" src="data:image/png;base64,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" alt="Mechanic Mastermind">
+                            <p class="profile-img-title">Mechanic Mastermind</p>
+                        </div>
+                        <p class="profile-slide-text">Get upvotes on gameplay- focused threads</p>
+                    </div>
+                </div>
+                <div class="swiper-slide profile-swiper-slide">
+                    <div class="profile-wrapper">
+                        <div class="profile-wrapper-img">
+                            <img class="profile-img" src="data:image/png;base64,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" alt="Daily Streaker">
+                            <p class="profile-img-title">Daily Streaker</p>
+                        </div>
+                        <p class="profile-slide-text">Contribute daily without missing a beat</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+     
+        <div class="profile-custom-pagination">
+            <div class="profile-pagination-item active"></div>
+            <div class="profile-pagination-item"></div>
+            <div class="profile-pagination-item"></div>
+        </div>
 
+        <p class="profile-last-text">*All visible on your public profile so your reputation follows you across every thread.</p>
+    </div>
+</section>
     </main>
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+   
   </div>
 </footer>
 
