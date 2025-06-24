@@ -499,3 +499,182 @@ font-family: "Inter", sans-serif;
     margin-top: 48px;
  }
 }
+/* Suggest a Blitz Topic */
+.suggest-section{
+    background-image: url("/img/suggest/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 483px;
+}
+.suggest-title{
+    margin-bottom: 25px;
+}
+.suggest-text-one{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.suggest-text-two{
+    margin-bottom: 25px;
+}
+.suggest-text-three{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.suggest-list{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+.suggest-link{
+    display: block;
+    cursor: pointer;
+      padding: 8px 8px 8px 16px;
+    width: 238px;
+        height: 52px;
+        border-radius: 36px;
+        background-color: inherit;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            transition: all 0.3s ease;
+}
+.suggest-link-text {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #bf10f1;
+    transition: all 0.3s ease;
+}
+
+.suggest-box {
+    border-radius: 100%;
+    background-color: #bf10f1;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.suggest-icon {
+    stroke: #000;
+}
+
+.suggest-link:hover,
+.suggest-link:active {
+ background: #bf10f1;
+}
+
+.suggest-link:hover .suggest-link-text,
+.suggest-link:active .suggest-link-text {
+    color: #000;
+}
+
+.suggest-link:hover .suggest-box,
+.suggest-link:active .suggest-box {
+    border: 1px solid #000;
+}
+@media only screen and (min-width: 1439px) {
+.suggest-section{
+    background-image: url("/img/suggest/desk.png");
+    height: 669px;
+}
+  .suggest-title{
+    margin-bottom: 56px;
+  }
+.suggest-text-one{
+    margin-bottom: 16px;
+}
+.suggest-text-two{
+    margin-bottom: 46px;
+}
+.suggest-text-three{
+    margin-bottom: 16px;
+}
+}
+/* Why Join BlitzDate? */
+.join-title{
+    margin-bottom: 25px;
+}
+.join-text{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.join-swiper-slide{
+    cursor: pointer;
+}
+.join-wrapper-img{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.join-img{
+    width: 28px;
+    height: 28px;
+}
+.join-img-title{
+    font-weight: 700;
+}
+.join-wrapper-two{
+    margin-top: 25px;
+}
+.join-custom-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 60px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.join-pagination-item {
+    background-color: #fff;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.join-pagination-item.active {
+    background-color: #bf10f1;
+}
+.join-last-text{
+    font-weight: 700;
+    margin-top: 25px;
+}
+@media only screen and (min-width: 1439px) {
+ .join-title{
+    margin-bottom: 56px;
+ }
+ .join-text{
+    margin-bottom: 48px;
+ }
+ .join-custom-pagination{
+    display: none;
+ }
+ .join-swiper-wrapper{
+    width: 1295px;
+    display: flex;
+    flex-direction: row;
+    gap: 144px;
+ }
+ .join-swiper-slide{
+    max-width: 330px;
+ }
+ .join-wrapper-two{
+    margin-top: 74px;
+ }
+ .join-last-text{
+    margin-top: 48px;
+ }
+}
+    
