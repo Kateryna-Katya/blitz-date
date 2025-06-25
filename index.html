@@ -24,20 +24,76 @@
     <script type="module" crossorigin src="/blitz-date/index.js"></script>
     <link rel="modulepreload" crossorigin href="/blitz-date/assets/vendor-C8mLK4Kr.js">
     <link rel="stylesheet" crossorigin href="/blitz-date/assets/vendor-DHBATib1.css">
-    <link rel="stylesheet" crossorigin href="/blitz-date/assets/index-B3lUXM-9.css">
+    <link rel="stylesheet" crossorigin href="/blitz-date/assets/index-bpbhg0M9.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-   
+    <header class="header" id="site-header">
+  <div class="header-container container">
+    <a class="header-logo-link" href="index.html#Home">
+    <img class="header-logo" src="/blitz-date/assets/logo-DiQ7l0os.png" alt="Logo" width="40" height="45" loading="lazy">
+    </a>
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12H21M3 6H21M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+    </button>
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#How">How it Works</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Topics">What Kinds of Topics?</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Profile">Profile & Reputation System</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Live">Live Blitz Feed Preview</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Suggest">Suggest a Blitz Topic</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Why">Why Join BlitzDate?</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item" href="index.html#Home">Home</a></li>
+    <li><a class="menu-list-item" href="index.html#How">How it Works</a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Topics">What Kinds of Topics?</a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Profile">Profile & Reputation System</a></li>
+    <li><a class="menu-list-item" href="index.html#Live">Live Blitz Feed Preview</a></li>
+    <li><a class="menu-list-item" href="index.html#Suggest">Suggest a Blitz Topic</a></li>
+    <li><a class="menu-list-item" href="index.html#Why">Why Join BlitzDate?</a></li>
+    <li>
+      <a class="menu-list-item" target="_blank" href="policy/privacy.pdf">Privacy Policy</a>
+    </li>
+    <li>
+      <a class="menu-list-item" target="_blank" href="policy/terms.pdf">Terms and Conditions</a>
+    </li>
+    <li>
+      <a class="menu-list-item" target="_blank" href="policy/cookies.pdf">Cookies Policy</a>
+    </li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- home -->
-<section class="home-section">
+<section class="home-section" id="Home">
     <div class="container">
         <h1 class="visually-hidden">The Daily Challenge for Game Thinkers & Keyboard Warriors</h1>
         <picture>
@@ -60,7 +116,7 @@
     </div>
 </section>
 <!-- How BlitzDate Works -->
-<section class="how-section">
+<section class="how-section" id="How">
     <div class="container">
         <h2 class="how-title">How  <span class="span">BlitzDate </span>Works</h2>
         <div class="swiper how-swiper">
@@ -139,7 +195,7 @@
     </div>
 </section>
 <!-- Profile & Reputation System -->
-<section class="profile-section">
+<section class="profile-section" id="Profile">
     <div class="container">
         <h2 class="profile-title">Profile & Reputation<span class="span"> System</span></h2>
         <p class="profile-text">Your Gaming Brain =<span class="span"> Your Identity</span></p>
@@ -199,7 +255,7 @@
     </div>
 </section>
 <!-- Live Blitz Feed Preview -->
-<article class="live-section">
+<article class="live-section" id="Live">
     <div class="container">
         <h2 class="live-title">Live <span class="span">Blitz</span>  Feed Preview</h2>
         <div class="live-text-wrapper">
@@ -240,7 +296,7 @@
     </div>
 </article>
 <!-- Suggest a Blitz Topic -->
-<section class="suggest-section">
+<section class="suggest-section" id="Suggest">
     <div class="container">
         <h2 class="suggest-title">Suggest a <span class="span"> Blitz</span> Topic</h2>
         <p class="suggest-text-one">Your ideas drive the discussion.</p>
@@ -274,8 +330,8 @@
     </div>
 </section>
 <!-- Why Join BlitzDate? -->
-<section class="join-section">
-    <div class="container">
+<section class="join-section" id="Why">
+    <div class="container join-container">
         <h2 class="join-title">Why Join <span class="span">BlitzDate?</span></h2>
         <p class="join-text">What makes BlitzDate different?</p>
         <div class="swiper join-swiper">
@@ -335,11 +391,61 @@
     </main>
 
     <footer class="footer">
-  <div class="container">
-   
+  <div class="container footer-container">
+    <p class="footer-text-one">Time’s Running Out on Today’s Topic!</p>
+   <p class="footer-text-two">No signup? No problem. Quick registration takes seconds.<br/>
+  Don’t miss your chance to post, vote, and rank before the day ends.</p>
+  <a class="footer-link" href="#Topics">
+    <p class="footer-link-text">Join Today’s Blitz</p>
+    <div class="footer-box">
+      <svg class="footer-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.808359 15.0159L14.5161 1.30811M14.5161 1.30811L4.5676 1.64041M14.5161 1.30811L14.1838 11.2566"
+          stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+  </a>
+  <p class="footer-text-three">Bonus: Your first take gets a free “Welcome Contributor” badge.</p>
+  <p class="footer-text-follow">Follow us:</p>
+  <div class="footer-link-container">
+   <a class="footer-network" href="https://x.com/">Twitter/X</a> 
+  <a class="footer-network" href="https://discord.com/">Discord</a>
+  <a class="footer-network" href="https://www.youtube.com/">YouTube</a>
+  <a class="footer-network" href="https://newsletter.page
+  ">Newsletter</a>
+  </div>
+  <ul class="footer-navigation">
+    <li class="footer-nav-link">
+      <a class="footer-underline" href="#Topics">About</a>
+    </li>
+    <li class="footer-nav-link">
+      <a class="footer-underline" href="Privacy Policy.html">Privacy Policy</a>
+    </li>
+     <li class="footer-nav-link">
+      <a class="footer-underline" href="Cookies Policy.html">Cookies Policy</a>
+    </li>
+    <li class="footer-nav-link">
+      <a class="footer-underline" href="Terms and Conditions.html">Terms and Conditions</a>
+    </li>  
+    <li class="footer-nav-link">
+      <a class="footer-underline" href="mailto:info@blitzdate.space">Contact Us</a>
+    </li>
+  </ul>
+  <p class="footer-text-four">BlitzDate is a project by game lovers, for game lovers.
+  Made to inspire better conversations—one day at a time.
+    </p>
+    <p class="footer-text">BlitzDate © 2025 | Powered by [blitzdate.space]</p>
   </div>
 </footer>
 
+    <div id="cookie-popup" class="cookie-popup">
+    <div class="popup-wrapper">
+        <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-accept">ACCEPT COOKIES</button>
+            <button id="decline-cookies" class="btn-decline">DECLINE COOKIES</button>
+        </div>
+    </div>
+</div>
 
   </body>
 </html>
