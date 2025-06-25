@@ -63,8 +63,11 @@
     width: 201px;
     padding: 8px;
   text-align: left;
+  transition: color 0.3s ease;
 }
-
+.menu-list-item:hover{
+  color: #bf10f1;
+}
 @media screen and (min-width: 1440px) {
   .header-container {
     padding: 13px 72px;
@@ -90,5 +93,12 @@
       font-size: 14px;
       color: #fff;
       padding: 8px;
+      transition: color 0.3s ease;
   }
+ .navigation-item:hover{
+  color: #bf10f1;
+ }
+ .navigation-item.active {
+   color: #bf10f1;
+ }
 }

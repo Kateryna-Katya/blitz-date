@@ -1,0 +1,104 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+
+.background-policy {
+    font-family: "Public Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.33333;
+        color: #fff;
+    text-align: left;
+}
+
+.privacy-title {
+     margin-top: 32px;
+    margin-bottom: 16px;
+    font-family: "Public Sans", sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: #fff;
+        text-align: left;
+}
+
+.text-span {
+    font-weight: 700;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    font-family: "Public Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        font-variant: all-small-caps;
+        color: #fff;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 16px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-bottom: 16px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+@media only screen and (min-width: 1439px) {
+    .background-policy {
+        font-size: 24px;
+    }
+
+    .policy-container {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+        .policy-subtitle{
+            font-family: "Public Sans", sans-serif;
+                font-weight: 700;
+                font-size: 36px;
+                font-variant: all-small-caps;
+                color: #fff;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        }
+    .privacy-title {
+        font-size: 48px;
+        margin-top: 30px;
+        margin-bottom: 24px;
+    }
+        .policy-list {
+            list-style-type: disc;
+            padding-left: 30px; 
+      }
+
+}
+@media print {
+
+    html,
+    body {
+        max-width: 1440px;
+        overflow: visible;
+    }
+
+    .container {
+        max-width: none;
+        width: 90%;
+    }   }
