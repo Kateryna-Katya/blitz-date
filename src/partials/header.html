@@ -1,5 +1,62 @@
-<header class="header">
-  <div class="container">
-   
+<header class="header" id="site-header">
+  <div class="header-container container">
+    <a class="header-logo-link" href="index.html#Home">
+    <img class="header-logo" src="/img/logo.png" alt="Logo" width="40" height="45" loading="lazy">
+    </a>
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12H21M3 6H21M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+    </button>
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#How">How it Works</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Topics">What Kinds of Topics?</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Profile">Profile & Reputation System</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Live">Live Blitz Feed Preview</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Suggest">Suggest a Blitz Topic</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Why">Why Join BlitzDate?</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item" href="index.html#Home">Home</a></li>
+    <li><a class="menu-list-item" href="index.html#How">How it Works</a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Topics">What Kinds of Topics?</a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Profile">Profile & Reputation System</a></li>
+    <li><a class="menu-list-item" href="index.html#Live">Live Blitz Feed Preview</a></li>
+    <li><a class="menu-list-item" href="index.html#Suggest">Suggest a Blitz Topic</a></li>
+    <li><a class="menu-list-item" href="index.html#Why">Why Join BlitzDate?</a></li>
+    <li>
+      <a class="menu-list-item" target="_blank" href="policy/privacy.pdf">Privacy Policy</a>
+    </li>
+    <li>
+      <a class="menu-list-item" target="_blank" href="policy/terms.pdf">Terms and Conditions</a>
+    </li>
+    <li>
+      <a class="menu-list-item" target="_blank" href="policy/cookies.pdf">Cookies Policy</a>
+    </li>
+  </ul>
+</div>

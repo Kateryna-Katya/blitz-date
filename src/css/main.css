@@ -2,9 +2,9 @@
 .home-section{
     background-image: url("/img/home/mob.png");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top 70px center;
     background-size: cover;
-    height: 436px;
+  
 }
 .visually-hidden {
     position: absolute;
@@ -16,6 +16,9 @@
     clip: rect(0 0 0 0);
     white-space: nowrap;
     border: 0;
+}
+.home-img{
+    margin-top: 78px;
 }
 .home-text{
     margin-top: 20px;
@@ -89,7 +92,7 @@ transition: all 0.3s ease;
     height: 798px;
   }
   .home-img{
-    margin-top: 20px;
+    margin-top: 110px;
   }
   .home-text{
     margin-top: 32px;
@@ -650,6 +653,9 @@ font-family: "Inter", sans-serif;
 .join-last-text{
     font-weight: 700;
     margin-top: 25px;
+}
+.join-container{
+    padding-bottom: 60px;
 }
 @media only screen and (min-width: 1439px) {
  .join-title{
